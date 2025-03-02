@@ -30,8 +30,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # env files (can opt-in for commiting if needed)
-.env*
-.env
 
 # vercel
 .vercel
@@ -50,3 +48,7 @@ next-env.d.ts
 # Sentry
 .sentryclirc
 .sentry-debug-meta
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
